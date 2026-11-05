@@ -1,0 +1,18 @@
+{
+    "name": "Level.Platforms.Editor",
+    "rootNamespace": "Level.Platforms.Editor",
+    "references": [
+        "Level.Platforms"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,59 @@
+# Временные и кешируемые директории Unity
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+
+# Резервные копии и ассеты, скачанные из Asset Store
+AssetStore-cache/
+Assets/AssetStoreTools*
+
+# Файлы решений и проектов Visual Studio / Rider / VS Code
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+.vs/
+.idea/
+.vscode/
+
+# Сгенерированные crash-дампы
+sysinfo.txt
+*.stackdump
+
+# Системные файлы ОС
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Сборки под платформы, пакеты, кеш Addressables и служебные файлы
+.gradle/
+.consulo/
+ExportedObj/
+*.tmp
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+crashlytics-build.properties
+*.apk
+*.aab
+*.app
+*.unitypackage
+~UnityDirMonSyncFile~*
+/[Aa]ssets/AddressableAssetsData/*/*.bin*
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*

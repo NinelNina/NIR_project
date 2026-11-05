@@ -1,0 +1,48 @@
+using UnityEngine;
+using Cysharp.Threading.Tasks;
+
+namespace Core.Utility
+{
+    public class GameplayUtilities
+    {
+        //????????? ????????????
+        private bool _invulInEffect = false;
+        private float timerForInvul = 0f;
+
+        public void Tick()
+        {
+            if (_invulInEffect)
+            {
+                timerForInvul -= Time.deltaTime;
+
+                if (timerForInvul <= 0)
+                {
+                    _invulInEffect = false;
+                    Debug.Log($"Invul effect: {_invulInEffect}");
+                }
+            }
+        }
+
+        public void TeleportPlayerTo(PlayerMovement playerController, Rigidbody2D playerRb, Transform teleportPoint)
+        {
+            playerController.enabled = false;
+
+            playerRb.linearVelocity = Vector2.zero;
+            playerRb.position = (Vector2)teleportPoint.position + new Vector2(0, 0.5f);
+
+            playerController.enabled = true;
+        }
+
+        public void SetInvulnarableState(float invulTimer)
+        {
+            _invulInEffect = true;
+            timerForInvul = invulTimer;
+        }
+
+        public bool GetInvulnarableState()
+        {
+            return _invulInEffect;
+        }
+    }
+}
+

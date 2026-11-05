@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c401b0d426247d58a2c3ae30f8b4851, type: 3}
+  m_Name: MeadowGroundTheme
+  m_EditorClassIdentifier: Level.Platforms::Level.Platforms.GroundTheme
+  _base: {fileID: 0}
+  _overrideBlockArt: 0
+  _overrideAngles: 0
+  _overrideCollision: 0
+  _overrideFit: 0
+  _left: {fileID: 21300000, guid: 20cc72991eaccc34087be932076e4f92, type: 3}
+  _middle:
+  - {fileID: 21300000, guid: 8c058ec92511bfc4691ffea419990996, type: 3}
+  - {fileID: 21300000, guid: 2fcb1a713049033419eb542e06a81e26, type: 3}
+  - {fileID: 21300000, guid: 839d91eeafdc97f48bf805a304347ad1, type: 3}
+  - {fileID: 21300000, guid: 024b842ef96b915489a822c34ea37aaa, type: 3}
+  _right: {fileID: 21300000, guid: c9f1ed0605af5c34a83816c512a9eb28, type: 3}
+  _platformEndSide: {fileID: 21300000, guid: 6038f4534667269459f39f1b31bbd4f4, type: 3}
+  _platformEndSideScale: 0.5
+  _crustLeft: {fileID: 21300000, guid: e3354b0b54f7ead42825f8e6bc329473, type: 3}
+  _crustMiddle:
+  - {fileID: 21300000, guid: 42c1c2da8ddad734d996c7d7d910e9ac, type: 3}
+  - {fileID: 21300000, guid: 03073cdb20d174f4a951a3e5a8052721, type: 3}
+  - {fileID: 21300000, guid: ce4942ecf1f6dc946be7e75a78371978, type: 3}
+  - {fileID: 21300000, guid: fb89b6ef1ef37fd47b6833c2e52b8ca1, type: 3}
+  _crustRight: {fileID: 21300000, guid: b7fa6b0b0263eb5458a768e3d0d9b415, type: 3}
+  _underLeft: {fileID: 21300000, guid: 3d1abec5ced165e44b41b78fd4e076a3, type: 3}
+  _underMiddle:
+  - {fileID: 21300000, guid: 931604a25c1669747b74de953c41e10d, type: 3}
+  - {fileID: 21300000, guid: 49f5fdc725bedba4392abc56e10f8628, type: 3}
+  - {fileID: 21300000, guid: f94b7e5ff64fbad4c9ca269f25d43215, type: 3}
+  - {fileID: 21300000, guid: c89f8137ee42d744db4afa84c8754968, type: 3}
+  _underRight: {fileID: 21300000, guid: 0741d59342abd184eb9a090bbbdde61f, type: 3}
+  _sharpCornerLeft: {fileID: 21300000, guid: abe802047a5fd87468d3608c64efc2ab, type: 3}
+  _sharpCornerRight: {fileID: 21300000, guid: fea1af4191f1ca649864bbf88e35677c, type: 3}
+  _wall: {fileID: 21300000, guid: 2fad4a20551aeac4997a7982e1ff64a5, type: 3}
+  _blockWallArt: 1
+  _blockBottomArt: 0
+  _fill: {fileID: 2800000, guid: a772023f5da5f0c458b92acdd3817534, type: 3}
+  _fillPixelsPerUnit: 100
+  _wallAngle: 45
+  _ceilingAngle: 135
+  _minSectionLength: 0.5
+  _groundMaterial: {fileID: 0}
+  _wallMaterial: {fileID: 6200000, guid: 29df79489fd1bdc45b89583a00074a33, type: 2}
+  _ceilingMaterial: {fileID: 6200000, guid: 29df79489fd1bdc45b89583a00074a33, type: 2}
+  _groundColliderOffset: 0
+  _wallColliderOffset: 0
+  _ceilingColliderOffset: 0
+  _wallLayer: -1
+  _ceilingLayer: -1
+  _surfaceProfile: {fileID: 11400000, guid: 10c64e1d9f0a7784b8a7ca45f290eae0, type: 2}
+  _surfaceBelowImageTop: 0.265
+  _roundCornerOuterInset: 0.235
+  _roundCornerWallStart: 2.85
